@@ -21,27 +21,20 @@ The TODO application is a simple yet powerful tool designed to help users manage
 - **CSS3**: For styling the application.
 
 ## Project Structure
-TODO-APP/
-│
-├── public/ # Contains the HTML file and icons
-│ ├── index.html # Main HTML file
-│ └── favicon.ico # Favicon icon
-│
-├── src/ # Source files
-│ ├── components/ # All React components
-│ │ ├── AddTodoForm.jsx # Component to add new tasks
-│ │ ├── FilterTodos.jsx # Component to filter tasks based on status
-│ │ ├── TodoItem.jsx # Component to display a single task
-│ │ └── TodoList.jsx # Component to display the list of tasks
-│ ├── App.jsx # Main React component that includes all other components
-│ ├── index.css # Global styles
-│ └── main.jsx # Entry point for React application
-│
-├── .gitignore # Specifies intentionally untracked files to ignore
-├── index.html # Main HTML for the project
-├── package.json # Node.js manifest file
-├── README.md # The file that you are currently reading
-└── vite.config.js # Configuration for Vite
+/todo-app/
+|-- /src/
+|   |-- /components/
+|   |   |-- AddTodoForm.js
+|   |   |-- TodoList.js
+|   |   |-- TodoItem.js
+|   |   |-- FilterTodos.js
+|   |-- App.js
+|   |-- main.jsx
+|   |-- style.css
+|-- index.html
+|-- package.json
+|-- vite.config.js
+
 
 
 ## Setup and Installation
