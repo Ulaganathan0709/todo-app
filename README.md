@@ -1,5 +1,8 @@
 # TODO Application
 
+## Live Demo
+Access the live demo of the TODO Application here: https://usktodo.netlify.app/
+
 ## Introduction
 The TODO application is a simple yet powerful tool designed to help users manage their daily tasks efficiently. With an intuitive interface, users can add, edit, delete, and filter tasks based on their completion status.
 
@@ -44,7 +47,7 @@ TODO-APP/
 ## Setup and Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/Ulaganathan0709/todo-app
 cd todo-app
 npm install
 npm run dev
